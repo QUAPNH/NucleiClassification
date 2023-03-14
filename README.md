@@ -9,6 +9,63 @@ Installation
 ======
 This framework implementation is based on [HoverNet](https://github.com/vqdang/hover_net). Therefore the installation is the same as original HoverNet.
 
+Data preparation
+======
+    ../train/256x256_256x256/
+
+    		img_Adrenal_gland_1_01171_000.npy
+
+    		img_Adrenal_gland_1_01172_000.npy
+
+    		...
+
+    		img_Uterus_1_02591_000.npy
+
+    ../train/Images/
+
+    		img_Adrenal_gland_1_01171_000.png
+
+    		img_Adrenal_gland_1_01172_000.png
+
+    		......
+
+    		img_Uterus_1_02591_000.png
+
+    ../train/Labels/
+
+    		img_Adrenal_gland_1_01171_000.mat
+
+    		img_Adrenal_gland_1_01172_000.mat
+
+    		......
+
+    		img_Uterus_1_02591_000.mat
+
+    ../train/Masks/
+
+    		img_Adrenal_gland_1_01171_000/
+
+    			0.png
+				1.png
+				......
+				N.png
+
+    		img_Adrenal_gland_1_01172_000/
+
+				0.png
+				1.png
+				......
+				N.png
+                
+    		......	
+            
+    		img_Uterus_1_02591_000/
+
+				0.png
+				1.png
+				......
+				N.png
+
 Acknowledgments
 ======
 We would like to thank [HoverNet](https://github.com/vqdang/hover_net) for overall framework.
