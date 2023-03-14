@@ -11,6 +11,8 @@ This framework implementation is based on [HoverNet](https://github.com/vqdang/h
 
 Data preparation
 ======
+The "Masks" file is the binary mask of the detection mask. The dataset files format is as follows:
+
     ../train/256x256_256x256/
 
     		img_Adrenal_gland_1_01171_000.npy
