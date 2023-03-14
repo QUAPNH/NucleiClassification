@@ -68,6 +68,11 @@ The "Masks" file is the binary mask of the detection mask. The dataset files for
 				......
 				N.png
 
+
+Train and Test
+======
+Our program is easy to train and test, just need to follow the HoverNet. In our program, the "mode" is always “fast”.
+
 Acknowledgments
 ======
 We would like to thank [HoverNet](https://github.com/vqdang/hover_net) for overall framework.
