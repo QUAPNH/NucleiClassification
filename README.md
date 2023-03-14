@@ -12,3 +12,15 @@ This framework implementation is based on [HoverNet](https://github.com/vqdang/h
 Acknowledgments
 ======
 We would like to thank [HoverNet](https://github.com/vqdang/hover_net) for overall framework.
+
+Reference
+======
+    @article{xiao2023scale,
+      title={A scale and region-enhanced decoding network for nuclei classification in histology image},
+      author={Xiao, Shuomin and Qu, Aiping and Zhong, Haiqin and He, Penghui},
+      journal={Biomedical Signal Processing and Control},
+      volume={83},
+      pages={104626},
+      year={2023},
+      publisher={Elsevier}
+    }
